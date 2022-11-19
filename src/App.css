@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(67, 128, 241);
+}
+.container {
+    width: 380px;
+    background-color: white;
+    margin: 5em auto;
+    border-radius: 8px;
+   padding-bottom: 1em;
+}
+.top{
+    padding: 1.15em;
+    border-bottom: 1px solid #c1bebe;
+}
+.input-box{
+    width: 100%;
+    border: 1px solid rgb(219, 194, 194);
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    padding: .65em ;
+   margin-bottom: 1em ;
+}
+.input-box>i{
+    color: #cabebe;
+    font-size: 1.2rem;
+ }
+.input-box:focus{
+    border: 1px solid rgb(35, 82, 203);
+}
+.input-box>input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+}
+.button-box{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    font-size: .95rem;
+}
+.button-box>div{
+    cursor: pointer;
+}
+.clear-btn{
+    background-color: rgb(67, 128, 241);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 11px;
+    cursor: pointer;
+    margin-left: 5em;
+}
+.bottom{
+    padding:0 1.15em;
+}
+.item_style{
+    padding: 1.1em 0;
+    border-bottom: 1px solid #c1bebe;
+    display: flex;
+    width: 100%;
+}
+.item_style>input{
+   margin-right: 1em;
+    cursor: pointer;
+}
+.item_style>div:last-child{
+   margin-left: auto;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+}
+.none{
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    right: -.5em;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    box-shadow: 3px 5px 11px -1px #b9b6b6;
+}
+.none>div{
+    padding: .4em .6em;
+    cursor: pointer;
+    display: block;
+}
+.dis{
+    display: none;
+}
